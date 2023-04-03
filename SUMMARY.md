@@ -1,6 +1,6 @@
 # Table of contents
 
-* [SUMMARY](README.md)
+* [📌 SUMMARY](README.md)
 * [✅ Main rules of IMAGE and CONTAINER](main-rules-of-image-and-container/README.md)
   * [docker image](https://docs.docker.com/engine/reference/commandline/images/)
   * [docker image ls](https://docs.docker.com/engine/reference/commandline/image\_ls/)
@@ -16,5 +16,5 @@
   * [docker rm](https://docs.docker.com/engine/reference/commandline/rm/)
   * [docker exec](https://docs.docker.com/engine/reference/commandline/exec/)
   * [docker exec -it](https://docs.docker.com/engine/reference/commandline/exec/#run-docker-exec-on-a-running-container)
-* [✅ Creating an IMAGE. Your repository](creating-an-image.-your-repository/README.md)
+* [✅ Creating an IMAGES. Your repository](creating-an-images.-your-repository/README.md)
   * [link](main-rules-of-image-and-container/README.md)
