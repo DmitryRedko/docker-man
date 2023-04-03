@@ -16,4 +16,5 @@
   * [docker rm](https://docs.docker.com/engine/reference/commandline/rm/)
   * [docker exec](https://docs.docker.com/engine/reference/commandline/exec/)
   * [docker exec -it](https://docs.docker.com/engine/reference/commandline/exec/#run-docker-exec-on-a-running-container)
-* [✅ Creating an IMAGE. Your repository](creating-an-image.-your-repository.md)
+* [✅ Creating an IMAGE. Your repository](creating-an-image.-your-repository/README.md)
+  * [link](main-rules-of-image-and-container/README.md)
