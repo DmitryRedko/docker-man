@@ -38,7 +38,7 @@ WORKDIR /url
 ADD https://airflow.apache.org/docs/apache-airflow/2.4.0/docker-compose.yaml .
 ```
 
-При использовании ADD архив распаковался, а файл (в данном случае docker-compose.yaml) по ссылке скачался.
+<figure><img src="../.gitbook/assets/1.png" alt=""><figcaption><p>При использовании ADD архив распаковался, а файл (в данном случае docker-compose.yaml) по ссылке скачался.</p></figcaption></figure>
 
 ### Dockerfile для COPY:
 
@@ -52,7 +52,7 @@ WORKDIR /url
 COPY https://airflow.apache.org/docs/apache-airflow/2.4.0/docker-compose.yaml .
 ```
 
-При использовании COPY файл по ссылке скачивать нельзя, поэтому упали с ошибкой. При этом архив не распаковался.
+<figure><img src="../.gitbook/assets/2.png" alt=""><figcaption><p>При использовании COPY файл по ссылке скачивать нельзя, поэтому упали с ошибкой. При этом архив не распаковался.</p></figcaption></figure>
 
 ## Команда для сборки
 
@@ -62,6 +62,8 @@ docker build <путь, где лежит Dockerfile> — создать обр�
 ```
 
 Пример создания образа:
+
+<figure><img src="../.gitbook/assets/3.png" alt=""><figcaption></figcaption></figure>
 
 ## Собственные образы на Docker Hub
 
@@ -114,6 +116,12 @@ docker build <путь, где лежит Dockerfile> — создать обр�
 
 Выглядеть это будет как-то так:
 
+<figure><img src="../.gitbook/assets/4.png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../.gitbook/assets/5.png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../.gitbook/assets/6.png" alt=""><figcaption></figcaption></figure>
+
 ## Скачивание образа
 
 После того, как вы загрузили образ на Docker Hub, вы можете его скачать. Как вы уже знаете, делается это командой:
@@ -121,3 +129,5 @@ docker build <путь, где лежит Dockerfile> — создать обр�
 ```
 docker pull
 ```
+
+<figure><img src="../.gitbook/assets/7.png" alt=""><figcaption></figcaption></figure>

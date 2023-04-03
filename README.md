@@ -1,3 +1,7 @@
+---
+layout: landing
+---
+
 # 📌 SUMMARY
 
 ## [main-rules-of-image-and-container](main-rules-of-image-and-container/ "mention")
